@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+table,td,th {border: 2px solid blue;border-collapse:collapse}
+tr {height: 80px;;}
+table {width: 40%;margin: auto}
+td {vertical-align:center;}
+tr:nth-child(even) {background-color: aqua;}
+tr:nth-child(odd) {background-color: beige;}
+tr:hover {background-color: grey;}
+#primera-fila {background-color: blue;color: white;}
+thead {background-color: blue;color: green;}
+tfoot {color: red;}
+tbody {color: blueviolet;}
+
+    </style>
+</head>
+<body>
+    <h1>CSS en Tablas</h1>
+<table>
+    <colgroup>
+    <col style="width: 300px;">
+    <col style="width: 100px;">
+    </colgroup>
+    <thead>
+<tr>
+    <th>Artículo</th>
+    <th>Precio</th>
+</tr>
+<tr>
+    <td>Aceite de Oliva</td>
+    <td>10,00€</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>Tortas de Alcázar</td>
+    <td>6,50€</td>
+</tr>
+<tr>
+    <td>Miguelitos de La Roda</td>
+    <td>12.00€</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+    <td>Tortas de Alcázar</td>
+    <td>6,50€</td>
+</tr>
+<tr>
+    <td>Miguelitos de La Roda</td>
+    <td>12.00€</td>
+</tr>
+</tfoot>
+
+
+</table>
+
+
+</body>
+</html>
